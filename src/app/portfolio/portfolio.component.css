@@ -1,0 +1,58 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column-one {
+      padding: 3vh clamp(50px, 8%, 200px) 0 clamp(50px, 8%, 200px);
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .column-one *{
+      position: relative;
+      word-wrap: break-word; /* IE 5.5-7 */
+      white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+      white-space: pre-wrap;
+    
+    }
+    
+    .entry {
+      color: #dddddd;
+      align-items: left;
+      justify-content: left;
+      text-align: left;
+      margin: 0 0 2em 0;
+    }
+  
+    h1 {
+      font-size: 2em;
+      margin-bottom: 1em;
+      margin-top: 0.5em;
+      text-decoration: underline;
+      align-items: left;
+      justify-content: left;
+      text-align: left;
+  
+    }
+  
+    h3 {
+      font-size: 1.3em;
+      margin: 0.3em 0 0.3em 0;
+    }
+  
+    p {
+      font-size: 0.88em;
+      color: #dddddd;
+      align-items: left;
+      justify-content: left;
+      text-align: left;
+      margin: 0;
+    }
+  
+    ul {
+      margin: 0.2em 0 0.2em 0;
+      font-size: 0.9em;
+    }

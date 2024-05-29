@@ -1,0 +1,46 @@
+.column-one {
+    padding: 15vh clamp(50px, 8%, 200px) 0 clamp(50px, 8%, 200px);
+    height: 100%;
+    align-items: center;
+    justify-content: flex;
+    text-align: center;
+  
+  }
+  
+  .column-one *{
+    position: relative;
+    word-wrap: break-word; /* IE 5.5-7 */
+    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+    white-space: pre-wrap;
+  
+  }
+    
+  p {
+    font-size: 1.5em;
+    color: #dddddd;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+  }
+  
+  a{
+    color: #dddddd;
+  }
+  
+  .email-a{
+    text-decoration-color: #dddddd;
+    text-decoration-line: underline;
+  }
+  
+  .email:hover {
+    transform: translateY(-1px);
+  }
+  .email{
+    text-decoration: none;
+    color: #dddddd;
+  }
+  
+  .email {
+    font-size: 3.5vw;
+  }

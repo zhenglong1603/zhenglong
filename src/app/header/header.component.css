@@ -1,0 +1,56 @@
+.header {
+    background: #bac7e3;
+  }
+  
+  nav {
+    position: relative;
+  }
+  
+  .hr-animate {
+    position: relative;
+    background: #bac7e3;
+  
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    height: 1px;
+      margin-left :clamp(3.125rem,8%, 200px);
+      margin-right :clamp(3.125rem, 8%, 200px);
+      opacity: 0.5;
+      border: 0;
+  }
+  @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  }
+  
+  
+  ul {
+  display: flex;
+    justify-content: right;
+    padding: 0 clamp(3.125rem, 8%, 200px) 0 clamp(3.125rem, 8%, 200px);
+  
+  }
+  li{
+    padding: 0.625vw 2.5vw;
+  }
+  ul li {
+    display: block;
+  
+  }
+  
+  a{
+    text-decoration: none;
+    color: #dde7ff;
+    transition: 0.5s ease;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
