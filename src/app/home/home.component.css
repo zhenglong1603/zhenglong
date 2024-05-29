@@ -2,7 +2,7 @@
     position: absolute;
     width: 90%;
     height: 100vh;
-    background-image: url("../../assets/images/image_A.png");
+    background-image: url("../../assets/images/floorball_transparent.png");
     background-size: 40vh auto;
     animation: shake-lr 17s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite both;
     background-repeat: no-repeat;
