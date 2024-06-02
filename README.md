@@ -1,1 +1,1 @@
-a website that i designed using Angular
+a personal website that i designed using Angular
