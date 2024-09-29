@@ -10,7 +10,7 @@ export class HomeComponent {
   @ViewChild('wordElement') wordElement: ElementRef = {} as ElementRef;
   @ViewChild('cursorElement') cursorElement: ElementRef = {} as ElementRef;
 
-  private words = ["hello", "你好", "hola"];
+  private words = ["hello", "你好", "bonjour"];
   private currentWord = 0;
   private currentChar = 0;
   private isDeleting = false;
